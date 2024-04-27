@@ -17,6 +17,7 @@ export default function Sobrenos() {
             <Image
               src={logo}
               className="w-[10rem] max-[850px]:w-[8rem] max-[480px]:mb-[5rem]"
+              alt="image"
             />
           </Link>
           <div className="flex flex-row gap-5 max-[850px]:hidden ">
@@ -39,7 +40,7 @@ export default function Sobrenos() {
         </div>
 
         <div className="flex flex-col items-center justify-center w-full">
-          <Image src={doginho} alt="" />
+          <Image src={doginho} alt="image" />
           <h1 className="font-satisfy text-5xl text-[#F39E4A] font-normal tracking-wide">
             Em desenvolvimento...
           </h1>

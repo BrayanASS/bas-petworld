@@ -15,6 +15,7 @@ export default function Banner() {
           <Image
             src={logo}
             className="w-[10rem] max-[850px]:w-[8rem] max-[480px]:mb-[5rem]"
+            alt="image"
           />
         </Link>
         <div className="flex flex-row gap-5 max-[850px]:hidden ">
@@ -54,11 +55,16 @@ export default function Banner() {
           <Image
             src={bannerImg1}
             className="w-[30rem] max-[1060px]:w-[25rem] max-[480px]:w-[18rem]"
+            alt="image"
           />
         </div>
       </div>
       <div className="flex w-screen justify-center h-auto z-0 max-[860px]:hidden">
-        <Image src={bannerImg2} className="absolute bottom-0 w-[50%] " />
+        <Image
+          src={bannerImg2}
+          className="absolute bottom-0 w-[50%] "
+          alt="image"
+        />
       </div>
     </div>
   );

@@ -39,6 +39,7 @@ export default function SobreNos() {
       <Image
         src={sobreNosImg}
         className="w-[27rem] max-[1100px]:w-[20rem] max-[760px]:w-[80%] max-[500px]:w-[20rem]"
+        alt="image"
       />
     </div>
   );

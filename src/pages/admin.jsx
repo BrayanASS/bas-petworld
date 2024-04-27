@@ -57,6 +57,7 @@ export default function Home() {
           <Image
             src={logo}
             className="w-[10rem] max-[850px]:w-[8rem] max-[480px]:mb-[5rem]"
+            alt="image"
           />
         </Link>
         <div className="flex flex-row gap-5 max-[850px]:hidden ">

@@ -54,6 +54,7 @@ export default function Catalogo() {
           <Image
             src={logo}
             className="w-[10rem] max-[850px]:w-[8rem] max-[480px]:mb-[5rem]"
+            alt="image"
           />
         </Link>
         <div className="flex flex-row gap-5 max-[850px]:hidden ">
@@ -99,7 +100,7 @@ export default function Catalogo() {
             >
               <Image
                 className="w-[10rem] min-h-[12rem] bg-contain bg-center "
-                alt="The guitarist in the concert."
+                alt="Imagem invalida"
                 src={produto.src}
                 width={2250}
                 height={1390}

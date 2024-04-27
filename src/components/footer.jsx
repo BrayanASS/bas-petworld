@@ -9,7 +9,11 @@ export default function Footer() {
     <div className="w-[100vw] flex items-center justify-center mt-[4rem] px-[10rem] bg-[#c57753] py-8 max-[1000px]:px-[0rem] max-[1000px]:justify-between max-[600px]:px-[0rem] ">
       <div className="flex items-center self-start py-[2rem] px-[6rem] justify-between max-[600px]:justify-center w-[100vw] ">
         <Link href="/">
-          <Image src={logo2} className="w-[10rem] max-[600px]:w-[7rem]" />
+          <Image
+            src={logo2}
+            className="w-[10rem] max-[600px]:w-[7rem]"
+            alt="image"
+          />
         </Link>
         <div className="flex flex-col gap-5 max-[600px]:hidden max-[600px]:w-0">
           <Link href="/">

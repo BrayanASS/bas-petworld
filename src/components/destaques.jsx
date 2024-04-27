@@ -56,7 +56,7 @@ export default function Destaques() {
             >
               <Image
                 className="w-[10rem] min-h-[12rem] bg-contain bg-center "
-                alt="The guitarist in the concert."
+                alt="Imagem invalida"
                 src={produto.src}
                 width={2250}
                 height={1390}

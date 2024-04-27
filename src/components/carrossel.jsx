@@ -45,7 +45,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image29} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image29}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -54,7 +58,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image30} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image30}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -63,7 +71,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image31} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image31}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -72,7 +84,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image32} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image32}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -81,7 +97,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image33} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image33}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -90,7 +110,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image34} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image34}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -99,7 +123,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image35} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image35}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -108,7 +136,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image36} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image36}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -117,7 +149,11 @@ export default function Carrossel() {
             <div className="p-1 h-auto">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
-                  <Image src={image37} className="w-[7rem] h-auto" />
+                  <Image
+                    src={image37}
+                    className="w-[7rem] h-auto"
+                    alt="image"
+                  />
                 </CardContent>
               </Card>
             </div>

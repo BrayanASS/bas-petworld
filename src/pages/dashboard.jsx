@@ -141,7 +141,7 @@ export default function Dashboard() {
     <div className="flex overflow-x-hidden flex-col w-[100vw] h-[100vh] items-center bg-[#faf1ee] bg-cover border-[rgba(241,188,163,1)] border-b-3 border-dashed font-[montserrat] ">
       <div className="flex items-center self-start py-[2rem] px-[6rem] justify-between w-[100vw] ">
         <Link href="/">
-          <Image src={logo} className="w-[10rem]" />
+          <Image src={logo} className="w-[10rem]" alt="image" />
         </Link>
         <div className="flex flex-row gap-5 items-center">
           <Link href="/">
