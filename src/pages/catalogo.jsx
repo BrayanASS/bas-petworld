@@ -13,6 +13,7 @@ import Link from "next/link";
 import { database, app } from "../services/firebase";
 import { getDatabase, ref, onValue } from "firebase/database";
 import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 export default function Catalogo() {
   const [produtos, setProdutos] = useState([]);
@@ -49,37 +50,12 @@ export default function Catalogo() {
 
   return (
     <div className="flex overflow-x-hidden flex-col  w-[100vw] h-[100vh] items-center bg-[#faf1ee] bg-cover border-[rgba(241,188,163,1)] border-b-3 border-dashed font-[montserrat] ">
-      <div className="flex items-center self-start py-[2rem] px-[6rem] justify-between w-[100vw] max-[860px]:px-[2rem] ">
-        <Link href="/">
-          <Image
-            src={logo}
-            className="w-[10rem] max-[850px]:w-[8rem] max-[480px]:mb-[5rem]"
-            alt="image"
-          />
-        </Link>
-        <div className="flex flex-row gap-5 max-[850px]:hidden ">
-          <Link href="/">
-            <button className="w-[100%] bg-[#f29e4b] text-1xl font-medium px-8 py-2  text-slate-50 rounded-[10px]">
-              Home
-            </button>
-          </Link>
-          <Link href="/catalogo">
-            <button className="w-[100%] bg-[#b47043] text-1xl font-medium px-8 py-2  text-slate-50 rounded-[10px] ">
-              Catalogo
-            </button>
-          </Link>
-          <Link href="/sobrenos">
-            <button className="w-[100%] bg-[#7b4826] text-1xl font-medium px-8 py-2  text-slate-50 rounded-[10px] ">
-              Sobre nós
-            </button>
-          </Link>
-        </div>
-      </div>
-      <div className="flex flex-col w-full max-[860px]:mt-[-5rem]">
-        <div className="flex ml-[6rem] my-5 max-[960px]:ml-[2rem] max-[750px]:w-[100%]">
+      <Header></Header>
+      <div className="flex flex-col w-[100%] mt-[8rem]">
+        <div className="flex  my-5  w-[100%] max-[600px]:px-[1rem]  justify-center">
           <input
             type="text"
-            className="w-[30%] max-[750px]:w-[80%] flex rounded-lg p-3 px-4 text-slate-400"
+            className="w-[30%] max-[800px]:w-[70%] max-[600px]:w-[80%] flex rounded-lg p-3 px-4 text-slate-400"
             placeholder="Nome do produto"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
@@ -92,7 +68,7 @@ export default function Catalogo() {
             <Icon icon="ic:baseline-search" />
           </button>
         </div>
-        <div className="grid  grid-cols-5 gap-5 justify-center mx-[6rem] py-5 max-[1460px]:grid-cols-4 max-[1220px]:grid-cols-3 max-[960px]:grid-cols-2 max-[960px]:mx-[2rem] max-[580px]:mx-[2rem] max-[570px]:grid-cols-1">
+        <div className="grid  grid-cols-5 justify-items-center gap-5 justify-center  py-5 w-[100%] px-[4rem] min-[2300px]:grid-cols-7  max-[1460px]:grid-cols-4 max-[1220px]:grid-cols-3 max-[960px]:grid-cols-2 max-[570px]:grid-cols-1">
           {filteredProdutos.map((produto) => (
             <div
               key={produto.id}
